@@ -906,7 +906,7 @@ hr {
         display: none;
     }
 
-    #available-p3 {
+    .available-p3 {
         left: 24px;
         top: 70px;
         position: absolute;
@@ -1026,7 +1026,7 @@ hr {
         display: none;
     }
 
-    #funding-p4 {
+    .funding-p4 {
         position: absolute;
         width: 258px;
         height: 104px;
