@@ -1,9 +1,15 @@
-body{
+@font-face {
+    font-family: 'Centra No1';
+    src: url(centrano1-and-no2-font/CentraNo1-Book.ttf);
+}
+
+body {
     height: 2786px;
     width: 1440px;
     margin: auto;
 }
-.container{
+
+.container {
     position: relative;
     width: 1440px;
     height: 2786px;
@@ -12,25 +18,30 @@ body{
     height: 2786px;
     width: 1440px;
 }
-main{
+
+main {
     width: 1440px;
     height: 2467px;
 }
-.header{
+
+.header {
     width: 1440px;
     height: 80px;
     display: flex;
     position: relative;
 }
-.ymner{
+
+.ymner {
     margin-left: 170px;
     margin-top: 18px;
 }
-.menu{
+
+.menu {
     display: flex;
     margin-left: 586.83px;
 }
-.insights{
+
+.insights {
     margin-top: 26px;
     display: flex;
     font-family: 'Centra No1';
@@ -39,11 +50,13 @@ main{
     font-size: 16px;
     line-height: 28px;
 }
-.material-icons-sharp{
+
+.material-icons-sharp {
     margin-top: 20px;
     color: #000;
 }
-.admin{
+
+.admin {
     margin-top: 26px;
     display: flex;
     margin-left: 40px;
@@ -53,7 +66,8 @@ main{
     font-size: 16px;
     line-height: 28px;
 }
-.profile{
+
+.profile {
     margin-top: 35px;
     box-sizing: border-box;
     background: #A78730;
@@ -63,16 +77,18 @@ main{
     width: 134px;
     height: 38px;
     margin-left: 32px;
-    color: #FFFFFF ;
+    color: #FFFFFF;
 }
-.user{
+
+.user {
     margin-top: 13px;
     margin-left: 24.73px;
     width: 12px;
     height: 12px;
-    
+
 }
-#profile{
+
+#profile {
     width: 47px;
     height: 28px;
     margin-left: 8.73px;
@@ -82,17 +98,20 @@ main{
     font-weight: 400;
     font-size: 16px;
 }
-.profile .material-icons-sharp{
+
+.profile .material-icons-sharp {
     color: #FFFFFF;
     margin-top: 9px;
 }
-hr{
+
+hr {
     margin-top: 28.89px;
     width: 1440px;
     opacity: 0.2;
     border: 0.5px solid #000000;
 }
-.make-idea{
+
+.make-idea {
     width: 691px;
     height: 56px;
     display: flex;
@@ -100,7 +119,8 @@ hr{
     margin-left: 165px;
     margin-top: 68px;
 }
-h1{
+
+h1 {
     width: 309px;
     height: 54px;
     font-family: 'Centra No1';
@@ -110,7 +130,8 @@ h1{
     opacity: 0.8;
     margin: 0px;
 }
-.p1{
+
+.p1 {
     width: 777px;
     height: 56px;
     font-family: 'Centra No1';
@@ -122,7 +143,8 @@ h1{
     opacity: 0.7;
     margin-top: 24px;
 }
-.p2{
+
+.p2 {
     width: 777px;
     height: 84px;
 
@@ -135,7 +157,8 @@ h1{
     opacity: 0.7;
     margin-top: 16px;
 }
-.p3{
+
+.p3 {
     width: 691px;
     height: 56px;
 
@@ -148,7 +171,8 @@ h1{
     opacity: 0.7;
     margin-top: 16px;
 }
-.team h1{
+
+.team h1 {
     width: 101px;
     height: 48px;
 
@@ -161,27 +185,32 @@ h1{
     margin-top: 332px;
     margin-left: 164px;
 }
-.oscar{
+
+.oscar {
     display: flex;
     margin-left: 164px;
     margin-top: 60px;
 }
-.img-oscar{
+
+.img-oscar {
     width: 248.73px;
     height: 380.71px;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     border-radius: 6px;
 }
-#img-oscar{
+
+#img-oscar {
     margin-top: 15%;
     margin-left: 20%;
     border-radius: 7px;
 }
-.status{
+
+.status {
     display: flex;
     flex-direction: column;
 }
-.oscar h1{
+
+.oscar h1 {
     width: 232px;
     height: 38px;
 
@@ -196,12 +225,14 @@ h1{
     margin-left: 227.27px;
     margin-top: 61px;
 }
-.in{
+
+.in {
     width: 26px;
     height: 26px;
     margin-left: 227.27px;
 }
-.oscar-p{
+
+.oscar-p {
     width: 557px;
     height: 156px;
 
@@ -216,31 +247,36 @@ h1{
 
     margin-left: 227.27px;
 }
-.hermes{
+
+.hermes {
     display: flex;
     margin-right: 165px;
     margin-top: 60px;
     flex-direction: row-reverse;
 }
-.img-hermes{
+
+.img-hermes {
     position: relative;
     width: 248.73px;
     height: 380.71px;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     border-radius: 6px;
 }
-#img-hermes{
+
+#img-hermes {
     position: absolute;
     right: 20%;
     margin-top: 15%;
-    border-radius: 7px; 
+    border-radius: 7px;
 }
-.status{
+
+.status {
     display: flex;
     flex-direction: column;
     margin-right: 240.73px;
 }
-.hermes h1{
+
+.hermes h1 {
     width: 152px;
     height: 38px;
 
@@ -255,7 +291,8 @@ h1{
     margin-left: 227.27px;
     margin-top: 61px;
 }
-.hermes-p{
+
+.hermes-p {
     width: 556px;
     height: 182px;
 
@@ -270,27 +307,32 @@ h1{
 
     margin-left: 227.27px;
 }
-.erik{
+
+.erik {
     display: flex;
     margin-left: 164px;
     margin-top: 60px;
 }
-.img-erik{
+
+.img-erik {
     width: 248.73px;
     height: 380.71px;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     border-radius: 6px;
 }
-#img-erik{
+
+#img-erik {
     margin-top: 15%;
     margin-left: 20%;
     border-radius: 7px;
 }
-.status{
+
+.status {
     display: flex;
     flex-direction: column;
 }
-.erik h1{
+
+.erik h1 {
     width: 109px;
     height: 38px;
 
@@ -305,12 +347,14 @@ h1{
     margin-left: 227.27px;
     margin-top: 61px;
 }
-.in{
+
+.in {
     width: 26px;
     height: 26px;
     margin-left: 227.27px;
 }
-.erik-p{
+
+.erik-p {
     width: 615px;
     height: 182px;
 
@@ -325,7 +369,8 @@ h1{
 
     margin-left: 227.27px;
 }
-.advisors h1{
+
+.advisors h1 {
     width: 161px;
     height: 48px;
 
@@ -339,44 +384,49 @@ h1{
     margin-top: 74px;
     margin-left: 164px;
 }
-.patricia{
+
+.patricia {
     display: flex;
     margin-left: 164px;
     margin-top: 60px;
 }
-.img-patricia{
+
+.img-patricia {
     width: 210px;
     height: 274px;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     border-radius: 6px;
 }
-#img-patricia{
+
+#img-patricia {
     margin-top: 15%;
     margin-left: 20%;
     border-radius: 7px;
 }
 
-.patricia h1{
-        /* position: absolute; */
-        width: 220px;
-        height: 32px;
-        /* left: 351px; */
-        font-family: 'Centra No1';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 38px;
-        color: #000000;
-        opacity: 0.8;
-        margin-top: 61px;
-        margin-left: 351px;
+.patricia h1 {
+    /* position: absolute; */
+    width: 220px;
+    height: 32px;
+    /* left: 351px; */
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+    opacity: 0.8;
+    margin-top: 61px;
+    margin-left: 351px;
 }
-.patricia .status1 .in{
+
+.patricia .status1 .in {
     width: 16.5px;
     height: 16.5px;
     margin-left: 351px;
 }
-.patricia-p{
+
+.patricia-p {
     width: 466px;
     height: 78px;
 
@@ -391,45 +441,53 @@ h1{
 
     margin-left: 351px;
 }
-.status1{
+
+.status1 {
     position: absolute;
 }
-.box-ymner{
-    position:absolute;
+
+.box-ymner {
+    position: absolute;
     box-sizing: content-box;
     height: 258.3636474609375px;
-    width: 1440px;  
+    width: 1440px;
     top: 1499px;
     bottom: 19.01%;
     background: #292A2B;
 }
-#y{
+
+.y {
     position: absolute;
     left: 269.13px;
     top: 91.47px;
 }
-#m{
+
+.m {
     position: absolute;
     left: 303.61px;
     top: 91.47px;
 
 }
-#n{
+
+.n {
     position: absolute;
     left: 339.43px;
     top: 91.47px;
 }
-#e{
+
+.e {
     position: absolute;
     left: 368.23px;
     top: 91.47px;
 }
-#r{
+
+.r {
     position: absolute;
     left: 392.02px;
     top: 91.47px;
 }
-#available-funding2{
+
+.available-funding2 {
     position: absolute;
     left: 49.03%;
     right: 42.71%;
@@ -444,7 +502,8 @@ h1{
     color: #FFFFFF;
     opacity: 0.7;
 }
-#funding-insights2{
+
+.funding-insights2 {
     position: absolute;
     left: 49.03%;
     right: 43.33%;
@@ -459,7 +518,8 @@ h1{
     color: #FFFFFF;
     opacity: 0.7;
 }
-#about-ymner{
+
+.about-ymner {
     position: absolute;
     left: 69.1%;
     right: 24.51%;
@@ -474,13 +534,14 @@ h1{
     color: #FFFFFF;
     opacity: 0.7;
 }
-#about-cookies-GDPR{
+
+.about-cookies-GDPR {
     position: absolute;
     left: 69.1%;
     right: 20%;
     top: 37.62%;
     bottom: 53.61%;
-    
+
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
@@ -489,7 +550,8 @@ h1{
     color: #FFFFFF;
     opacity: 0.7;
 }
-#contact{
+
+.contact {
     position: absolute;
     left: 69.1%;
     right: 18.12%;
@@ -505,22 +567,25 @@ h1{
 
     opacity: 0.7;
 }
-footer{
+
+footer {
     box-sizing: content-box;
     position: absolute;
     height: 60.64px;
-    width: 1440px;  
+    width: 1440px;
     top: 1725px;
     background: #000000;
 }
-.eng{
+
+.eng {
     position: absolute;
     height: 30px;
     width: 28.777774810791016px;
     left: 260px;
     top: 15px;
 }
-#english{
+
+.english {
     position: absolute;
     left: 306px;
     top: 22.64px;
@@ -534,7 +599,8 @@ footer{
     height: 28px;
     margin: 0px;
 }
-#copyright{
+
+.copyright {
     position: absolute;
     left: 737px;
     right: 261px;
@@ -550,38 +616,47 @@ footer{
     height: 28px;
     width: 442px;
 }
-.footer{
+
+.footer {
     position: absolute;
     top: 998px;
 }
-#find-funding{
+
+.find-funding {
     display: none;
 }
-hr{
+
+hr {
     display: none;
 }
-.header .material-symbols-outlined{
+
+.header .material-symbols-outlined {
     display: none;
 }
-#funded-projects{
-display: none;
+
+.funded-projects {
+    display: none;
 }
-@media screen and (max-width: 375px)  {
-    .container{
+
+@media screen and (max-width: 375px) {
+    .container {
         width: 375px;
         height: 4079px;
     }
+
     .ymner {
         margin-left: 2px;
         margin-top: 7px;
         width: 98px;
         height: 44px;
     }
+
     hr {
         margin-left: 0px;
         width: 375px;
     }
-    .header .material-symbols-outlined{
+
+    .header .material-symbols-outlined {
         position: absolute;
         display: block;
         left: 335px;
@@ -589,26 +664,32 @@ display: none;
         width: 20px;
         height: 14px;
     }
-    .insights{
+
+    .insights {
         display: none;
     }
-    .admin{
+
+    .admin {
         display: none;
     }
-    .profile{
+
+    .profile {
         display: none;
     }
+
     .make-idea {
         width: 347px;
         height: 48px;
         margin-left: 13px;
         margin-top: 24px;
     }
+
     .make-idea h1 {
         width: 170px;
         height: 38px;
-        font-size: 22px;
+        font-size: 1.375rem;
     }
+
     .p1 {
         width: 347px;
         height: 96px;
@@ -617,13 +698,15 @@ display: none;
         line-height: 24px;
         margin-top: 0px;
     }
-    .p2{
+
+    .p2 {
         width: 347px;
         height: 120px;
         font-size: 13px;
         line-height: 24px;
         margin-top: 0px;
     }
+
     .p3 {
         width: 347px;
         height: 48px;
@@ -631,34 +714,41 @@ display: none;
         line-height: 24px;
         margin-top: 0px;
     }
+
     .team h1 {
         width: 56px;
         height: 38px;
-        font-size: 22px;
+        font-size: 1.375rem;
         line-height: 38px;
         margin-top: 300px;
         margin-left: 13px;
     }
+
     .img-oscar {
         width: 240.72px;
         height: 369.2px;
     }
+
     .oscar {
         margin-left: 13px;
         margin-top: 34px;
     }
+
     #img-oscar {
         width: 300px;
         height: 298.63px;
     }
+
     .oscar {
         display: flex;
         flex-direction: column;
     }
+
     .status {
         display: flex;
         flex-direction: column;
     }
+
     .oscar h1 {
         width: 193px;
         height: 28px;
@@ -670,12 +760,14 @@ display: none;
         margin-left: 0px;
         margin-top: 40px;
     }
+
     .in {
         width: 13.75px;
         height: 13.75px;
         margin-left: 0px;
         margin-top: 11.13px;
     }
+
     .oscar-p {
         width: 347px;
         height: 192px;
@@ -684,21 +776,25 @@ display: none;
         opacity: 0.8;
         margin-left: 0px;
     }
+
     .hermes {
         display: flex;
         margin-left: 121.47px;
         margin-top: 91px;
         flex-direction: column;
     }
+
     .img-hermes {
         width: 241.53px;
     }
+
     #img-hermes {
         width: 300px;
         right: 20%;
         margin-top: 20%;
     }
-    .hermes h1{
+
+    .hermes h1 {
         width: 127px;
         height: 28px;
         font-family: 'Centra No1';
@@ -709,10 +805,12 @@ display: none;
         margin-left: -110px;
         margin-top: 40px;
     }
-    .hermes .in{
+
+    .hermes .in {
         margin-left: -110px;
     }
-    .hermes-p{
+
+    .hermes-p {
         margin-left: -110px;
         height: 216px;
         width: 347px;
@@ -720,20 +818,24 @@ display: none;
         line-height: 24px;
         margin-top: 19.12px;
     }
-    .erik{
+
+    .erik {
         display: flex;
         flex-direction: column;
         margin-left: 13px;
         margin-top: 67px;
     }
-    .img-erik{
+
+    .img-erik {
         width: 240.72px;
         height: 369.2px;
     }
-    #img-erik{
+
+    #img-erik {
         width: 300px;
         height: 298.63px;
     }
+
     .erik h1 {
         width: 91px;
         height: 28px;
@@ -745,6 +847,7 @@ display: none;
         margin-left: 0px;
         margin-top: 40px;
     }
+
     .erik-p {
         width: 347px;
         height: 264px;
@@ -754,32 +857,38 @@ display: none;
         margin-left: 0px;
         margin-top: 18.93px;
     }
-    .advisors{
+
+    .advisors {
         width: 89px;
         height: 38px;
     }
-    .advisors h1{
+
+    .advisors h1 {
 
         font-weight: 500;
-        font-size: 22px;
+        font-size: 1.375rem;
         line-height: 38px;
         margin-top: 56px;
         margin-left: 13px;
     }
-    .patricia{
+
+    .patricia {
         display: flex;
-        flex-direction: column ;
+        flex-direction: column;
         margin-left: 13px;
     }
-    .img-patricia{
+
+    .img-patricia {
         width: 187.78px;
         height: 245.56px;
     }
-    #img-patricia{
+
+    #img-patricia {
         width: 186.33px;
         height: 195px;
     }
-    .patricia h1{
+
+    .patricia h1 {
         width: 183px;
         height: 24px;
         margin-left: 0px;
@@ -787,11 +896,13 @@ display: none;
         font-size: 20px;
         line-height: 24px;
     }
+
     .patricia .status1 .in {
         width: 13.75px;
         height: 13.75px;
         margin-left: 0px;
     }
+
     .patricia-p {
         width: 347px;
         height: 66px;
@@ -800,15 +911,18 @@ display: none;
         margin-left: 0px;
         margin-top: 19.09px;
     }
-    .footer{
+
+    .footer {
         position: absolute;
         top: auto;
     }
-    .box-ymner{
+
+    .box-ymner {
         height: 588px;
         width: 375px;
-        top:1019.32px;
+        top: 1019.32px;
     }
+
     footer {
         box-sizing: content-box;
         position: absolute;
@@ -817,48 +931,56 @@ display: none;
         top: 1474.32px;
         background: #000000;
     }
-    #y{
+
+    .y {
         height: 22.00000762939453px;
         width: 23.562585830688477px;
         left: 17.2264404296875px;
         top: 29.60546875px;
         border-radius: 0px;
     }
-    #m{
+
+    .m {
         height: 21.765331268310547px;
         width: 23.64925765991211px;
         left: 42.910888671875px;
         top: 29.60546875px;
         border-radius: 0px;
     }
-    #n{
+
+    .n {
         height: 21.765331268310547px;
         width: 18.417884826660156px;
         left: 69.5926513671875px;
         top: 29.60546875px;
         border-radius: 0px;
     }
-    #e{
+
+    .e {
         height: 21.765331268310547px;
         width: 15.076324462890625px;
         left: 91.0462646484375px;
         top: 29.60546875px;
         border-radius: 0px;
     }
-    #r{
+
+    .r {
         height: 22.00000762939453px;
         width: 18.8203125px;
         left: 108.7696533203125px;
         top: 29.60546875px;
         border-radius: 0px;
     }
-    #available-funding2 {
-       display: none;
-    }
-    #funding-insights2{
+
+    .available-funding2 {
         display: none;
     }
-    #find-funding{
+
+    .funding-insights2 {
+        display: none;
+    }
+
+    .find-funding {
         display: inline;
         height: 28px;
         width: 89px;
@@ -877,14 +999,15 @@ display: none;
         opacity: 0.7;
         margin: 0px;
     }
-    #funded-projects{
+
+    .funded-projects {
         position: absolute;
         display: inline;
         height: 28px;
         width: 110px;
         left: 21px;
         top: 167px;
-        
+
 
         font-family: 'Centra No1';
         font-style: normal;
@@ -896,19 +1019,21 @@ display: none;
 
         opacity: 0.7;
     }
-    hr{
+
+    hr {
         position: absolute;
         display: inline;
         height: 0px;
         width: 314px;
         left: 21px;
         top: 213px;
-        
+
 
         opacity: 0.2;
         border: 0.5px solid #FFFFFF;
     }
-    #about-ymner{
+
+    .about-ymner {
         position: absolute;
         height: 28px;
         width: 92px;
@@ -924,7 +1049,8 @@ display: none;
 
         opacity: 0.7;
     }
-    #about-cookies-GDPR{
+
+    .about-cookies-GDPR {
         position: absolute;
         height: 28px;
         width: 157px;
@@ -939,7 +1065,8 @@ display: none;
 
         opacity: 0.7;
     }
-    #contact{
+
+    .contact {
         position: absolute;
         height: 28px;
         width: 184px;
@@ -955,13 +1082,15 @@ display: none;
 
         opacity: 0.7;
     }
-    .eng{
+
+    .eng {
         position: absolute;
         width: 28.777774810791016px;
         left: 21px;
         top: 27px;
     }
-    #english{
+
+    .english {
         position: absolute;
         height: 28px;
         width: 48px;
@@ -977,7 +1106,8 @@ display: none;
 
         opacity: 0.6;
     }
-    #copyright{
+
+    .copyright {
         height: 48px;
         width: 298px;
         left: 21px;
@@ -988,7 +1118,7 @@ display: none;
         font-size: 14px;
         line-height: 24px;
         color: #FFFFFF;
-        
+
         opacity: 0.5;
     }
 }
