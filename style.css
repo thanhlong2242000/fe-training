@@ -8,27 +8,25 @@ body {
 }
 
 header {
-    width: 100%;
-    height: 725px;
+    width: 1440px;
+    height: 660px;
+    margin: auto;
 }
 
 .container {
-    margin: auto;
     width: 100%;
     height: 1818px;
-    position: sticky;
 }
 
-.a {
-    width: 1440px;
-    height: 725px;
-    left: 0px;
-    top: 0px;
-    opacity: 0.9;
+.a-1 {
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    object-fit: cover;
 }
 
 .menu {
-    position: absolute;
+    position: relative;
     width: 1127px;
     height: 70.25px;
     left: 156px;
@@ -110,7 +108,7 @@ header {
 }
 
 .makeidea {
-    position: absolute;
+    position: relative;
     width: 540px;
     height: 91px;
     left: 165px;
@@ -127,11 +125,11 @@ header {
 
 #services {
 
-    position: absolute;
+    position: relative;
     width: 204px;
     height: 30px;
     left: 165px;
-    top: 340px;
+    top: 180px;
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -143,11 +141,12 @@ header {
 }
 
 #innovation {
-    position: absolute;
+    position: relative;
     width: 210px;
     height: 30px;
-    left: 365px;
-    top: 340px;
+    left: 375px;
+    ;
+    top: 130px;
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -209,12 +208,18 @@ header {
     top: 14.5px;
 }
 
+.content {
+    width: 1440px;
+    height: 774px;
+    margin: auto;
+}
+
 .box-available {
-    position: absolute;
+    position: relative;
     width: 540px;
     height: 462px;
     left: 165px;
-    top: 860px;
+    top: 180px;
 
     background: #F2F7FF;
     border-radius: 14px;
@@ -233,6 +238,11 @@ header {
     line-height: 32px;
     color: #000000;
     opacity: 0.8;
+}
+
+.available-funding-2 :hover {
+    color: red;
+    ;
 }
 
 #available-p1 {
@@ -350,11 +360,11 @@ header {
 }
 
 .box-funding {
-    position: absolute;
+    position: relative;
     width: 540px;
     height: 462px;
     left: 735px;
-    top: 860px;
+    top: -282px;
 
     background: #FFFFE0;
     border-radius: 14px;
@@ -505,62 +515,52 @@ header {
 }
 
 .box-ymner {
-    position: absolute;
+    position: relative;
     box-sizing: content-box;
     height: 258.3636474609375px;
     width: 1440px;
-    top: 1499px;
-    bottom: 19.01%;
+    top: 0px;
     background: #292A2B;
+    margin: auto;
 }
 
 .y {
     position: absolute;
     left: 269.13px;
-    /* right: 72.06%; */
     top: 91.47px;
-    /* bottom: 21.81%;*/
 }
 
 .m {
     position: absolute;
     left: 303.61px;
-    /* right: 54.41%; */
     top: 91.47px;
-    /* bottom: 22.17%; */
 
 }
 
 .n {
     position: absolute;
     left: 339.43px;
-    /* right: 39.72%; */
     top: 91.47px;
-    /* bottom: 22.17%;*/
 }
 
 .e {
     position: absolute;
     left: 368.23px;
-    /* right: 27.31%; */
     top: 91.47px;
-    /* bottom: 22.17%;*/
 }
 
 .r {
     position: absolute;
     left: 392.02px;
-    /* right: 12.61%; */
     top: 91.47px;
-    /* bottom: 21.81%;*/
 }
 
 .available-funding2 {
     position: absolute;
     left: 49.03%;
-    right: 42.71%;
+
     top: 23.2%;
-    bottom: 70.53%;
+
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -574,9 +574,7 @@ header {
 .funding-insights2 {
     position: absolute;
     left: 49.03%;
-    right: 43.33%;
     top: 38.87%;
-    bottom: 54.86%;
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -590,9 +588,7 @@ header {
 .about-ymner {
     position: absolute;
     left: 69.1%;
-    right: 24.51%;
     top: 21.94%;
-    bottom: 69.28%;
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -603,12 +599,14 @@ header {
     opacity: 0.7;
 }
 
+#about-ymner :hover {
+    color: red;
+}
+
 .about-cookies-GDPR {
     position: absolute;
     left: 69.1%;
-    right: 20%;
     top: 37.62%;
-    bottom: 53.61%;
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -624,28 +622,25 @@ header {
     left: 69.1%;
     right: 18.12%;
     top: 53.29%;
-    bottom: 37.93%;
 
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
-    /* identical to box height, or 187% */
-
-
     color: #FFFFFF;
 
     opacity: 0.7;
 }
 
-footer {
+.footer-2 {
     box-sizing: content-box;
-    position: absolute;
+    position: relative;
     height: 60.64px;
     width: 1440px;
-    top: 1757.36px;
+    top: 0px;
     background: #000000;
+    margin: auto;
 }
 
 .eng {
@@ -660,12 +655,10 @@ footer {
     position: absolute;
     left: 306px;
     top: 22.64px;
-    /* bottom: 5.64%; */
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    /* line-height: 28px; */
     color: #FFFFFF;
     opacity: 0.6;
     width: 48px;
@@ -676,9 +669,7 @@ footer {
 .copyright {
     position: absolute;
     left: 737px;
-    right: 261px;
     top: 12.64px;
-    bottom: 6.27%;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
@@ -688,6 +679,51 @@ footer {
     opacity: 0.5;
     height: 28px;
     width: 442px;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    top: 630px;
+}
+
+.find-funding {
+    display: none;
+}
+
+.a hr {
+    display: none;
+}
+
+.header .material-symbols-outlined {
+    display: none;
+}
+
+.funded-projects {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    height: 319.23px;
+    width: 100%;
+    margin: auto;
+    background-color: #000;
+    top: 1497px;
+    left: 0px;
+}
+
+
+
+.a {
+    width: 100%;
+    top: 0px;
+    background: #292A2B;
+    margin: auto;
+}
+
+.ymner .material-symbols-outlined {
+    display: none;
 }
 
 .ellipse {
@@ -796,6 +832,7 @@ footer {
     top: 27px;
     display: none;
 }
+
 .find-funding {
     display: none;
 }
@@ -813,13 +850,19 @@ hr {
         width: 375px;
     }
 
-    .a {
+    header {
+        width: 1440px;
+        height: 328px;
+        margin: auto;
+    }
+
+    .a-1 {
         width: 375px;
         height: 328px;
     }
 
     .menu {
-        position: absolute;
+        position: relative;
         width: 1127px;
         height: 70.25px;
         left: 1px;
@@ -838,12 +881,13 @@ hr {
         width: 232px;
         height: 39px;
         left: 14px;
-        top: 101px;
+        top: 0px;
         font-family: 'Centra No1';
         font-style: normal;
         font-weight: 500;
         font-size: 30px;
         line-height: 91px;
+        margin: 0px;
         color: #FFFFFF;
     }
 
@@ -852,39 +896,32 @@ hr {
         height: 48px;
     }
 
-    .makeidea {
-        width: 232px;
-        height: 39px;
-        left: 14px;
-        top: 101px;
-        font-size: 30px;
-        line-height: 0;
-        color: #FFFFFF;
-    }
-
     #services {
         width: 143px;
         height: 30px;
         left: 14px;
-        top: 144px;
+        top: 44px;
         font-size: 14px;
         line-height: 0px;
+        margin: 0px;
     }
 
     #innovation {
         width: 147px;
         height: 30px;
-        left: 150px;
-        top: 144px;
+        left: 160px;
+        top: 14px;
         font-size: 14px;
         line-height: 0px;
+        margin: 0px;
     }
 
     .box-available {
         width: 350px;
         height: 584px;
         left: 12px;
-        top: 384px;
+        top: 56px;
+        ;
         border-radius: 14px;
     }
 
@@ -1005,7 +1042,7 @@ hr {
         width: 350px;
         height: 392px;
         left: 13px;
-        top: 1040px;
+        top: 80px;
     }
 
     #funding-insights {
@@ -1062,7 +1099,7 @@ hr {
     .box-ymner {
         height: 455px;
         width: 375px;
-        top: 1485px;
+        top: 0px;
     }
 
     .y {
@@ -1145,21 +1182,23 @@ hr {
         display: inline;
     }
 
-    footer {
+    .footer-2 {
         box-sizing: content-box;
         position: absolute;
-        height: 60.64px;
+        height: 133px;
         width: 1440px;
-        top: 1757.36px;
+        top: 455px;
+        ;
+        ;
         background: #000000;
     }
 
-    footer {
+    .a {
         box-sizing: content-box;
         position: absolute;
         height: 133px;
         width: 375px;
-        top: 1940px;
+        top: 0px;
         background: #000000;
     }
 
@@ -1220,7 +1259,7 @@ hr {
         display: none;
     }
 
-    hr {
+    .box-ymner hr {
         position: absolute;
         left: 21px;
         top: 213px;
