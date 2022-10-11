@@ -5,22 +5,21 @@
 
 body {
     height: 2786px;
-    width: 1440px;
+    width: 100%;
     margin: auto;
 }
 
 .container {
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 2786px;
 
     background: #EDF8EF;
     height: 2786px;
-    width: 1440px;
 }
 
 main {
-    width: 1440px;
+    width: 100%;
     height: 2467px;
 }
 
@@ -29,6 +28,7 @@ main {
     height: 80px;
     display: flex;
     position: relative;
+    margin: auto;
 }
 
 .ymner {
@@ -106,11 +106,14 @@ main {
 
 hr {
     margin-top: 28.89px;
-    width: 1440px;
+    width: 100%;
     opacity: 0.2;
     border: 0.5px solid #000000;
 }
-
+.content{
+    width: 1440px;
+    margin: auto;
+}
 .make-idea {
     width: 691px;
     height: 56px;
@@ -447,13 +450,13 @@ h1 {
 }
 
 .box-ymner {
-    position: absolute;
+    position: relative;
     box-sizing: content-box;
     height: 258.3636474609375px;
     width: 1440px;
-    top: 1499px;
-    bottom: 19.01%;
+    top: 0px;
     background: #292A2B;
+    margin: auto;
 }
 
 .y {
@@ -487,13 +490,11 @@ h1 {
     top: 91.47px;
 }
 
-.available-funding-2 {
+.available-funding2 {
     position: absolute;
     left: 49.03%;
-    right: 42.71%;
-    top: 23.2%;
-    bottom: 70.53%;
 
+    top: 23.2%;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
@@ -502,17 +503,14 @@ h1 {
     color: #FFFFFF;
     opacity: 0.7;
 }
-
-#available-funding-2 :hover {
-    color: red;
+.available-funding-2 :hover{
+    color: #cbcbc9;
 }
 
 .funding-insights2 {
     position: absolute;
     left: 49.03%;
-    right: 43.33%;
     top: 38.87%;
-    bottom: 54.86%;
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -526,9 +524,7 @@ h1 {
 .about-ymner {
     position: absolute;
     left: 69.1%;
-    right: 24.51%;
     top: 21.94%;
-    bottom: 69.28%;
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -540,15 +536,13 @@ h1 {
 }
 
 #about-ymner :hover {
-    color: red;
+    color: #cbcbc9;
 }
 
 .about-cookies-GDPR {
     position: absolute;
     left: 69.1%;
-    right: 20%;
     top: 37.62%;
-    bottom: 53.61%;
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -564,7 +558,6 @@ h1 {
     left: 69.1%;
     right: 18.12%;
     top: 53.29%;
-    bottom: 37.93%;
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -576,13 +569,14 @@ h1 {
     opacity: 0.7;
 }
 
-footer {
+.footer-2 {
     box-sizing: content-box;
-    position: absolute;
+    position: relative;
     height: 60.64px;
     width: 1440px;
-    top: 1725px;
+    top: 0px;
     background: #000000;
+    margin: auto;
 }
 
 .eng {
@@ -611,9 +605,7 @@ footer {
 .copyright {
     position: absolute;
     left: 737px;
-    right: 261px;
     top: 12.64px;
-    bottom: 6.27%;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
@@ -626,24 +618,40 @@ footer {
 }
 
 .footer {
+    width: 100%;
     position: absolute;
-    top: 998px;
+    top: 630px;
 }
 
 .find-funding {
     display: none;
 }
 
-hr {
-    display: none;
+.a hr {
+    display: block;
 }
-
 .header .material-symbols-outlined {
     display: none;
 }
 
 .funded-projects {
     display: none;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    background-color: #000;
+
+}
+
+
+
+.a {
+    width: 100%;
+    top: 0px;
+    background: #292A2B;
+    margin: auto;
 }
 
 @media screen and (max-width: 375px) {
@@ -928,7 +936,7 @@ hr {
     .box-ymner {
         height: 588px;
         width: 375px;
-        top: 1019.32px;
+        top: 0px;
     }
 
     footer {
@@ -936,7 +944,7 @@ hr {
         position: absolute;
         height: 133px;
         width: 375px;
-        top: 1474.32px;
+        top: 3447.29px;
         background: #000000;
     }
 

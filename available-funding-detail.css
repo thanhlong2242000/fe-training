@@ -436,7 +436,7 @@ header {
     opacity: 0.7;
 }
 #available-funding-2 :hover{
-    color: red;
+    color: #cbcbc9;
 }
 .funding-insights2 {
     position: absolute;
@@ -466,7 +466,7 @@ header {
     opacity: 0.7;
 }
 #about-ymner :hover{
-    color: red;
+    color: #cbcbc9;
 }
 .about-cookies-GDPR {
     position: absolute;

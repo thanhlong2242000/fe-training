@@ -241,8 +241,7 @@ header {
 }
 
 .available-funding-2 :hover {
-    color: red;
-    ;
+    color: #cbcbc9;
 }
 
 #available-p1 {
@@ -397,6 +396,7 @@ header {
     font-size: 16px;
     line-height: 28px;
     color: #70A693;
+    margin: 3px;
 }
 
 #funding-p1 {
@@ -514,6 +514,8 @@ header {
     color: #FFFFFF;
 }
 
+/*Footer*/
+
 .box-ymner {
     position: relative;
     box-sizing: content-box;
@@ -600,7 +602,7 @@ header {
 }
 
 #about-ymner :hover {
-    color: red;
+    color: #cbcbc9;
 }
 
 .about-cookies-GDPR {
@@ -721,6 +723,8 @@ footer {
     background: #292A2B;
     margin: auto;
 }
+
+/* Footer */
 
 .ymner .material-symbols-outlined {
     display: none;
