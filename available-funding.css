@@ -126,7 +126,7 @@ main {
 
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     line-height: 39px;
     color: #000000;
@@ -193,7 +193,7 @@ main {
     align-items: center;
 }
 
-.grants .number-grants {
+.grants .number-grants-785 {
     width: 26px;
     height: 28px;
     font-family: 'Centra No1';
@@ -221,7 +221,7 @@ main {
 
     opacity: 0.7;
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .list-grants {
@@ -231,13 +231,18 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 13.5px;
+    font-size: 0.9375rem;
     line-height: 24px;
     color: #000000;
 
     opacity: 0.7;
     margin-left: 23px;
     margin-top: 9px;
+}
+
+.list-grants ul {
+    width: 200px;
+    margin-left: -20px;
 }
 
 .p-grants span {
@@ -315,7 +320,7 @@ main {
 
     opacity: 0.7;
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .list-grants {
@@ -411,7 +416,7 @@ main {
 
     opacity: 0.7;
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .list-grants {
@@ -504,7 +509,7 @@ main {
 
     opacity: 0.7;
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .list-grants {
@@ -574,7 +579,7 @@ main {
     outline: none;
 }
 
-.filter {
+.btn-filter .filter {
     position: absolute;
     width: 106px;
     height: 44px;
@@ -582,17 +587,39 @@ main {
     border-radius: 22px;
     left: 1224px;
     top: 70px;
+    color: white;
+    border: 1px solid #A78730;
 }
 
 .filter .material-symbols-outlined {
     position: absolute;
     margin: 0px;
-    left: 10px;
-    top: 10px;
+    left: 16px;
+    top: 8px;
     color: white;
 }
 
+.filter {
+    width: 37px;
+    height: 21px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+}
+
 .filter p {
+    position: relative;
+    left: 10px;
+    bottom: 6.7px;
+}
+
+.btn-filter {
     position: absolute;
     width: 37px;
     height: 21px;
@@ -605,8 +632,6 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-
-    color: #FFFFFF;
 }
 
 .results .result p {
@@ -630,7 +655,7 @@ main {
     width: 27px;
     height: 21px;
     left: 170px;
-    top: 67px;
+    top: 68px;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
@@ -657,13 +682,13 @@ main {
 
 .sort-by span {
     position: relative;
-    width: 115px;
+    width: 10.9375rem;
     height: 21px;
     left: 955px;
     top: -7px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 21px;
     color: #A78730;
@@ -691,7 +716,7 @@ main {
     top: -81px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 21px;
     color: #A78730;
@@ -746,7 +771,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 24px;
 
     color: #000000;
@@ -808,24 +833,29 @@ main {
     background: #FFFFFF;
 }
 
-.ladda-mer {
+.btn-ladda .ladda-mer {
     box-sizing: border-box;
-
-    position: absolute;
     width: 160px;
     height: 44px;
-
     border: 1px solid #A78730;
     border-radius: 22px;
-    margin-left: 530px;
-    margin-top: 1780px;
+    margin-left: 640px;
+    margin-top: 48px;
 }
 
-#ladda-mer {
-    width: 77px;
+.btn-ladda button:hover {
+    background: #A78730;
+    color: white;
+}
+
+.btn-filter button:hover {
+    opacity: 0.8;
+}
+
+.ladda-mer {
     height: 21px;
-    margin-left: 42px;
-    margin-top: 12px;
+    width: 77px;
+
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -835,6 +865,22 @@ main {
 
     color: #A78730;
 }
+
+#btn-ladda {
+    width: 77px;
+    height: 21px;
+    margin-left: 42px;
+    margin-top: 11px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #A78730;
+}
+
 
 .box-ymner {
     position: relative;
@@ -885,7 +931,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -903,7 +949,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -917,7 +963,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -935,7 +981,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -950,7 +996,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
 
@@ -972,7 +1018,7 @@ main {
     height: 30px;
     width: 28.777774810791016px;
     left: 260px;
-    top: 15px;
+    top: 0.9375rem;
 }
 
 .english {
@@ -982,7 +1028,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: #FFFFFF;
     opacity: 0.6;
     width: 48px;
@@ -998,7 +1044,7 @@ main {
     font-style: normal;
     font-weight: 400;
     font-size: 13.4px;
-    line-height: 15px;
+    line-height: 0.9375rem;
     color: #FFFFFF;
     opacity: 0.5;
     height: 28px;
@@ -1026,7 +1072,7 @@ main {
 
 footer {
     width: 100%;
-    margin-top: 193px;
+    margin-top: 110px;
     background-color: #000;
 
 }
@@ -1056,13 +1102,7 @@ footer {
     display: none;
 }
 
-.foundations .expand-more .material-symbols-outlined {
-    display: none;
-}
-.investors .expand-more .material-symbols-outlined {
-    display: none;
-}
-.others .expand-more .material-symbols-outlined {
+.content hr {
     display: none;
 }
 
@@ -1123,11 +1163,16 @@ footer {
     }
 
     .grants hr {
+        display: block;
         width: 100%;
     }
 
     .list-grants {
         margin-left: 0px;
+    }
+
+    .list-grants ul {
+        margin: 0px;
     }
 
     .grant-circle {
@@ -1149,12 +1194,33 @@ footer {
         display: none;
     }
 
+    .foundations .material-symbols-outlined {
+        height: 10.000000000000009px;
+        width: 5.874913215637212px;
+        margin-left: 200px;
+        margin-top: 0.9375rem;
+    }
+
     .investors .p-grants {
         display: none;
     }
 
+    .investors .material-symbols-outlined {
+        height: 10.000000000000009px;
+        width: 5.874913215637212px;
+        margin-left: 231px;
+        margin-top: 10px;
+    }
+
     .others .p-grants {
         display: none;
+    }
+
+    .others .material-symbols-outlined {
+        height: 10.000000000000009px;
+        width: 5.874913215637212px;
+        margin-left: 251px;
+        margin-top: 0.9375rem;
     }
 
     .foundations .list-grants {
@@ -1170,12 +1236,7 @@ footer {
     }
 
     .expand-less .material-symbols-outlined {
-        display: none;
-    }
-
-    .expand-more .material-symbols-outlined {
-        margin-left: 184px;
-        margin-top: 2px;
+        transform: rotate(180deg);
     }
 
     .number-grants {
@@ -1194,9 +1255,11 @@ footer {
         margin: 0px;
         margin-left: 18px;
         margin-top: 10px;
+        display: inline;
     }
 
     .foundations hr {
+        display: inline-block;
         position: relative;
         left: 25px;
         top: 32px;
@@ -1211,11 +1274,6 @@ footer {
         height: auto;
     }
 
-    .investors .expand-more .material-symbols-outlined {
-        margin-left: 218px;
-        margin-top: 2px;
-    }
-
     .investors .number-grants-rep {
         width: 26px;
         height: 28px;
@@ -1228,9 +1286,11 @@ footer {
         margin: 0px;
         margin-left: 18px;
         margin-top: 10px;
+        display: inline;
     }
 
     .investors hr {
+        display: inline-block;
         position: relative;
         left: 25px;
         top: 32px;
@@ -1246,11 +1306,6 @@ footer {
         margin-left: 0px;
     }
 
-    .others .expand-more .material-symbols-outlined {
-        margin-left: 241px;
-        margin-top: 2px;
-    }
-
     .others .number-grants-rep {
         width: 26px;
         height: 28px;
@@ -1263,6 +1318,7 @@ footer {
         margin: 0px;
         margin-left: 18px;
         margin-top: 10px;
+        display: inline;
     }
 
     .search-fill {
@@ -1284,13 +1340,7 @@ footer {
         top: 48px;
     }
 
-    .filter {
-        width: 44px;
-        left: 319px;
-        top: 48px;
-    }
-
-    .filter p {
+    .btn-filter p {
         display: none;
     }
 
@@ -1302,6 +1352,7 @@ footer {
     .result #number {
         left: 74px;
         top: 64px;
+        margin: 0px;
     }
 
     .sort-by p {
@@ -1314,7 +1365,7 @@ footer {
 
     .sort-by span {
         left: 13px;
-        top: -15px;
+        top: -0.9375rem;
     }
 
     .show span {
@@ -1348,15 +1399,24 @@ footer {
         background-color: #F2F7FF;
     }
 
-    .ladda-mer {
+    .btn-ladda {
         box-sizing: border-box;
         position: absolute;
         width: 160px;
         height: 44px;
+        border-radius: 22px;
+        /* margin-left: 95px; */
+        /* margin-top: 5200px; */
+    }
+
+    .btn-ladda .ladda-mer {
+        box-sizing: border-box;
+        width: 160px;
+        height: 44px;
         border: 1px solid #A78730;
         border-radius: 22px;
-        margin-left: 95px;
-        margin-top: 5200px;
+        margin-left: 108px;
+        margin-top: 25px;
     }
 
     .zoom {
@@ -1424,7 +1484,7 @@ footer {
         font-family: 'Centra No1';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 0.9375rem;
         line-height: 28px;
 
         color: #FFFFFF;
@@ -1441,7 +1501,7 @@ footer {
         font-family: 'Centra No1';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 0.9375rem;
         line-height: 28px;
 
         color: #FFFFFF;
@@ -1495,12 +1555,34 @@ footer {
     .copyright {
         height: 48px;
         width: 298px;
-
+        font-size: 0.9375rem;
         left: 21px;
         top: 63px;
     }
 
     footer {
         height: 630px;
+    }
+
+    .filter .material-symbols-outlined {
+        position: absolute;
+        margin: 0px;
+        left: 9px;
+        top: 8px;
+        color: white;
+    }
+
+    .btn-filter .filter {
+        height: 44px;
+        width: 44px;
+        left: 280px;
+        top: 35px;
+        border-radius: 22px;
+    }
+    .results{
+        margin-bottom: 50px;
+    }
+    .number-grants-785{
+        display: block;
     }
 }

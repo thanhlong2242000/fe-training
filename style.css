@@ -233,7 +233,7 @@ header {
     top: 40px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
     line-height: 32px;
     color: #000000;
@@ -288,7 +288,7 @@ header {
 
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 28px;
     /* identical to box height, or 175% */
@@ -308,7 +308,7 @@ header {
 
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 28px;
     /* identical to box height, or 175% */
@@ -327,7 +327,7 @@ header {
     top: 258px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 28px;
     /* identical to box height, or 175% */
@@ -347,7 +347,7 @@ header {
 
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 28px;
     /* identical to box height, or 175% */
@@ -378,7 +378,7 @@ header {
 
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
     line-height: 32px;
     /* identical to box height, or 145% */
@@ -397,7 +397,24 @@ header {
     line-height: 28px;
     color: #70A693;
     margin: 3px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
 }
+
+.number2 {
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #70A693;
+    margin: 3px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
 
 #funding-p1 {
     position: absolute;
@@ -448,12 +465,9 @@ header {
 
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 28px;
-    /* or 175% */
-
-
     color: #000000;
 
     opacity: 0.7;
@@ -473,17 +487,19 @@ header {
     background: #A28840;
 }
 
+.visa-btn:hover {
+    background: #b89840;
+}
+
 #visa {
     position: absolute;
     left: 41.25%;
     right: 41.25%;
     top: -5px;
-    /* bottom: 0%; */
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    /* line-height: 0px; */
+    font-size: 0.875rem;
     color: #FFFFFF;
 }
 
@@ -501,16 +517,18 @@ header {
     background: #A28840;
 }
 
+.show-btn:hover {
+    background: #b89840;
+}
+
 #show {
     position: absolute;
-    left: 41.25%;
-    right: 41.25%;
+    left: 4rem;
     top: -5px;
-    /* bottom: 0%; */
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.875rem;
     color: #FFFFFF;
 }
 
@@ -530,47 +548,60 @@ header {
     position: absolute;
     left: 269.13px;
     top: 91.47px;
+    height: 29.33334732055664px;
+    width: 31.631967544555664px;
+
 }
 
 .m {
     position: absolute;
     left: 303.61px;
     top: 91.47px;
-
+    height: 29.020442962646484px;
+    width: 31.748321533203125px;
 }
 
 .n {
     position: absolute;
     left: 339.43px;
     top: 91.47px;
+    height: 29.020442962646484px;
+    width: 24.725379943847656px;
+
 }
 
 .e {
     position: absolute;
     left: 368.23px;
     top: 91.47px;
+    height: 29.020442962646484px;
+    width: 20.23944854736328px;
+
 }
 
 .r {
     position: absolute;
     left: 392.02px;
     top: 91.47px;
+    height: 29.33334732055664px;
+    width: 25.265625px;
+
 }
 
 .available-funding2 {
     position: absolute;
     left: 49.03%;
-
     top: 23.2%;
-
-
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
+    height: 20px;
+    width: 119px;
+
 }
 
 .funding-insights2 {
@@ -581,10 +612,12 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
+    height: 20px;
+    width: 110px;
 }
 
 .about-ymner {
@@ -595,10 +628,13 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.875rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
+    height: 28px;
+    width: 92px;
+
 }
 
 #about-ymner :hover {
@@ -613,10 +649,12 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.875rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
+    height: 28px;
+    width: 157px;
 }
 
 .contact {
@@ -628,11 +666,13 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.875rem;
     line-height: 28px;
     color: #FFFFFF;
 
     opacity: 0.7;
+    height: 28px;
+    width: 184px;
 }
 
 .footer-2 {
@@ -650,7 +690,7 @@ header {
     height: 30px;
     width: 28.777774810791016px;
     left: 260px;
-    top: 15px;
+    top: 0.875rem;
 }
 
 .english {
@@ -660,7 +700,7 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.875rem;
     color: #FFFFFF;
     opacity: 0.6;
     width: 48px;
@@ -675,8 +715,8 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 13.4px;
-    line-height: 15px;
+    font-size: 14px;
+    line-height: 0.875rem;
     color: #FFFFFF;
     opacity: 0.5;
     height: 28px;
@@ -849,17 +889,127 @@ hr {
     display: none;
 }
 
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+.e-number {
+    animation: counter 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 16px system-ui;
+    animation-fill-mode: forwards;
+}
+
+.e-number::after {
+    content: counter(num);
+}
+
+.e-number1 {
+    animation: counter 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 16px system-ui;
+    animation-fill-mode: forwards;
+}
+
+.e-number1::after {
+    content: counter(num);
+}
+
+.e-number2 {
+    animation: counter 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 16px system-ui;
+    animation-fill-mode: forwards;
+}
+
+.e-number2::after {
+    content: counter(num);
+}
+
+.e-number3 {
+    animation: counter 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 16px system-ui;
+    animation-fill-mode: forwards;
+}
+
+.e-number3::after {
+    content: counter(num);
+}
+
+@keyframes counter {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 785;
+    }
+}
+
+#funding-p3 .number {
+    animation: counter1 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 16px system-ui;
+    animation-fill-mode: forwards;
+}
+
+#funding-p3 .number::after {
+    content: counter(num);
+}
+
+@keyframes counter1 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 58496;
+    }
+}
+
+#funding-p3 .number2 {
+    animation: counter2 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 16px system-ui;
+    animation-fill-mode: forwards;
+}
+
+#funding-p3 .number2::after {
+    content: counter(num);
+}
+
+@keyframes counter2 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 164;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .container {
         width: 375px;
     }
 
     header {
-        width: 1440px;
+        width: 375px;
         height: 328px;
         margin: auto;
     }
-
+    #insights{
+        display: none;
+    }
+    #administration{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
     .a-1 {
         width: 375px;
         height: 328px;
@@ -867,7 +1017,7 @@ hr {
 
     .menu {
         position: relative;
-        width: 1127px;
+        width: 375px;
         height: 70.25px;
         left: 1px;
         top: 6px;
@@ -914,12 +1064,13 @@ hr {
         width: 147px;
         height: 30px;
         left: 160px;
-        top: 14px;
+        top: 0px;
         font-size: 14px;
         line-height: 0px;
-        margin: 0px;
     }
-
+    .content{
+        width: 375px;
+    }
     .box-available {
         width: 350px;
         height: 584px;
@@ -1155,7 +1306,7 @@ hr {
         font-family: 'Centra No1';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 0.875rem;
         line-height: 28px;
         color: #FFFFFF;
 
@@ -1173,7 +1324,7 @@ hr {
         font-family: 'Centra No1';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 0.875rem;
         line-height: 28px;
         color: #FFFFFF;
 
@@ -1190,10 +1341,8 @@ hr {
         box-sizing: content-box;
         position: absolute;
         height: 133px;
-        width: 1440px;
+        width: 375px;
         top: 455px;
-        ;
-        ;
         background: #000000;
     }
 
@@ -1234,7 +1383,7 @@ hr {
         height: 30px;
         width: 28.777774810791016px;
         left: 21px;
-        top: 15px;
+        top: 0.875rem;
     }
 
     .english {
@@ -1249,6 +1398,7 @@ hr {
         left: 21px;
         height: 48px;
         width: 298px;
+        font-size: 0.9375rem;
     }
 
     .profile #vector {

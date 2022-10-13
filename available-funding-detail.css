@@ -156,7 +156,6 @@ header {
     position: relative;
     width: 535px;
     height: 78px;
-    margin: 0px;
     left: 133px;
     top: 59px;
 
@@ -352,7 +351,7 @@ header {
     margin: 0px;
 }
 
-.to-site {
+.btn-to-site {
     position: relative;
     width: 147px;
     height: 41px;
@@ -363,12 +362,12 @@ header {
     border-radius: 32px;
 }
 
-.to-site #to-site {
+.btn-to-site .to-site {
     position: absolute;
-    width: 48px;
+    width: 65px;
     height: 21px;
-    left: 50px;
-    top: 10px;
+    left: 43px;
+    top: 9px;
     margin: 0px;
 
     font-family: 'Centra No1';
@@ -377,6 +376,11 @@ header {
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
+    background: scroll;
+    border: 1px solid #A78730;
+}
+.btn-to-site:hover{
+    opacity: 0.9;
 }
 
 .box-ymner {
@@ -430,14 +434,16 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
 }
-#available-funding-2 :hover{
+
+#available-funding-2 :hover {
     color: #cbcbc9;
 }
+
 .funding-insights2 {
     position: absolute;
     left: 49.03%;
@@ -446,7 +452,7 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -460,14 +466,16 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
 }
-#about-ymner :hover{
+
+#about-ymner :hover {
     color: #cbcbc9;
 }
+
 .about-cookies-GDPR {
     position: absolute;
     left: 69.1%;
@@ -476,7 +484,7 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -491,7 +499,7 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
 
@@ -513,7 +521,7 @@ header {
     height: 30px;
     width: 28.777774810791016px;
     left: 260px;
-    top: 15px;
+    top: 0.9375rem;
 }
 
 .english {
@@ -523,7 +531,7 @@ header {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: #FFFFFF;
     opacity: 0.6;
     width: 48px;
@@ -539,7 +547,7 @@ header {
     font-style: normal;
     font-weight: 400;
     font-size: 13.4px;
-    line-height: 15px;
+    line-height: 0.9375rem;
     color: #FFFFFF;
     opacity: 0.5;
     height: 28px;
@@ -583,10 +591,15 @@ footer {
     background: #292A2B;
     margin: auto;
 }
-.ymner .material-symbols-outlined{
+
+.ymner .material-symbols-outlined {
     display: none;
 }
+
 @media screen and (max-width: 375px) {
+    main{
+        width: 375px;
+    }
     .ymner {
         width: 99px;
         height: 44px;
@@ -612,6 +625,8 @@ footer {
 
     .header1 {
         height: 80px;
+        width: 375px;
+        margin: 0px;
     }
 
     .content {
@@ -638,7 +653,7 @@ footer {
 
     .grants p {
         left: 46px;
-        top: 15px;
+        top: 0.9375rem;
     }
 
     .grants .material-symbols-outlined {
@@ -655,7 +670,7 @@ footer {
         width: 280px;
         margin: 0px;
         left: 48px;
-        top: 15px;
+        top: 0.9375rem;
         font-family: 'Centra No1';
         font-style: normal;
         font-weight: 400;
@@ -671,6 +686,7 @@ footer {
     .content-1 {
         left: 20px;
         top: 80px;
+        width: 355px;
     }
 
     .container hr {
@@ -725,8 +741,7 @@ footer {
     .open #may {
         height: 24px;
         width: 200px;
-        margin-left: 41px;
-        ;
+        margin-left: 34px;
         margin-top: 20px;
         font-size: 14px;
         line-height: 24px;
@@ -750,7 +765,7 @@ footer {
     }
 
     .category .pen {
-        left: 15px;
+        left: 0.9375rem;
     }
 
     .description #description {
@@ -778,7 +793,7 @@ footer {
         line-height: 24px;
     }
 
-    .to-site {
+    .btn-to-site {
         left: 114px;
         top: 8px;
     }
@@ -844,7 +859,7 @@ footer {
         font-family: 'Centra No1';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 0.9375rem;
         line-height: 28px;
 
         color: #FFFFFF;
@@ -861,7 +876,7 @@ footer {
         font-family: 'Centra No1';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 0.9375rem;
         line-height: 28px;
 
         color: #FFFFFF;
@@ -914,8 +929,20 @@ footer {
     .copyright {
         height: 48px;
         width: 298px;
-
+        font-size: 0.9375rem;
         left: 21px;
         top: 63px;
+    }
+    header{
+        width: 375px;
+    }
+    .header1 .menu{
+        margin: 0px;
+    }
+    #open{
+        width: 135px;
+    }
+    .available-funding-2{
+        display: none;
     }
 }
