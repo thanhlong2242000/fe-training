@@ -7,6 +7,7 @@ body {
     height: 2786px;
     width: 100%;
     margin: auto;
+    background-color: #edf8ef;
 }
 
 .container {
@@ -398,6 +399,11 @@ h1 {
     background-color: #FFFFFF;
     border-radius: 6px;
 }
+#img-patricia{
+    margin-top: 15%;
+    margin-left: 20%;
+    border-radius: 7px;
+}
 
 
 .patricia h1 {
@@ -571,6 +577,11 @@ h1 {
     height: 50px;
     width: 100%;
     background: #000000;
+    margin: auto;
+    position: relative;
+    box-sizing: content-box;
+    width: 1440px;
+    top: 0px;
     margin: auto;
 }
 

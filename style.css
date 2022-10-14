@@ -7,10 +7,13 @@ body {
     margin: auto;
 }
 
-header {
+.header{
     width: 1440px;
+    margin: 0 auto  ;
+}
+header {
     height: 660px;
-    margin: auto;
+    background-color: #94d8da;
 }
 
 .container {
@@ -19,7 +22,7 @@ header {
 }
 
 .a-1 {
-    width: 100%;
+    width: 1440px;
     height: 660px;
     position: absolute;
     object-fit: cover;
@@ -995,7 +998,9 @@ hr {
     .container {
         width: 375px;
     }
-
+    .header{
+        width: 375px;
+    }
     header {
         width: 375px;
         height: 328px;
